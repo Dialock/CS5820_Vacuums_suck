@@ -32,13 +32,13 @@ public class Vacuum {
 		
 		//ints for storing performance and steps respectively
 		//index 0 is for clean clean,1 for clean dirty and so on
-		int perfSR[] = new int[4],
-			perfTB[] = new int[4],
-			perfMD[] = new int[4];
-		int stepSR[] = new int[4],
-			stepTB[] = new int[4],
-			stepMD[] = new int[4];
-		
+		int[] perfSR = new int[4];
+		int[] perfTB = new int[4];
+		int[] perfMD = new int[4];
+		int[] stepSR = new int[4];
+		int[] stepTB = new int[4];
+		int[] stepMD = new int[4];
+
 		String []actions = new String[5];
 		String []actM = new String[5];
 		int i;

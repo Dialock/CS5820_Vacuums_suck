@@ -6,7 +6,7 @@ import aima.core.agent.EnvironmentState;
  * @author Ravi Mohan
  * @author Ciaran O'Reilly
  */
-public class DynamicEnvironmentState extends ObjectWithDynamicAttributes
+public class DynamicEnvironmentState extends aima.core.agent.impl.ObjectWithDynamicAttributes
 		implements EnvironmentState {
 	public DynamicEnvironmentState() {
 

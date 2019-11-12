@@ -7,7 +7,7 @@ import aima.core.agent.Percept;
  * @author Ciaran O'Reilly
  * @author Mike Stampone
  */
-public class DynamicPercept extends ObjectWithDynamicAttributes implements Percept {
+public class DynamicPercept extends aima.core.agent.impl.ObjectWithDynamicAttributes implements Percept {
 
 	public DynamicPercept() {
 	}

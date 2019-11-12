@@ -6,7 +6,7 @@ import aima.core.agent.Action;
  * @author Ciaran O'Reilly
  * @author Mike Stampone
  */
-public class DynamicAction extends ObjectWithDynamicAttributes implements
+public class DynamicAction extends aima.core.agent.impl.ObjectWithDynamicAttributes implements
 		Action {
 	public static final String ATTRIBUTE_NAME = "name";
 

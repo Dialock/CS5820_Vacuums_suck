@@ -1,6 +1,11 @@
 package aima.core.agent.impl;
 
 import aima.core.agent.*;
+import aima.core.agent.Action;
+import aima.core.agent.Agent;
+import aima.core.agent.Environment;
+import aima.core.agent.EnvironmentView;
+import aima.core.agent.Percept;
 
 /**
  * Environment view implementation which logs performed action and

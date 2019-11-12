@@ -41,5 +41,5 @@ public interface EnvironmentView {
 	 * @param source
 	 *            the Environment in which the agent has acted.
 	 */
-	void agentActed(Agent agent, Percept percept, Action action, Environment source);
+	void agentActed(Agent agent, aima.core.agent.Percept percept, Action action, Environment source);
 }
